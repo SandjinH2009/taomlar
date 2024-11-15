@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/fonts/OpenSansCondensed-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/fonts/OpenSansCondensed-Italic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/fonts/OpenSansCondensed-Medium.woff2') format('woff2');
+    font-weight: medium;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/fonts/OpenSansCondensed-Regular.woff2') format('woff2');
+    font-weight: regular;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/fonts/OpenSansCondensed-SemiBold.woff2');
+    font-weight: semibold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tinos';
+    src: url('../fonts/fonts/Tinos-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tinos';
+    src: url('../fonts/fonts/Tinos-BoldItalic.woff2') format('woff2');
+    font-weight: bolditalik;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tinos';
+    src: url('../fonts/fonts/Tinos-Italic.woff2') format('woff2');
+    font-weight: italik;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tinos';
+    src: url('../fonts/fonts/Tinos-Regular.woff2') format('woff2');
+    font-weight: regular;
+    font-style: italic;
+    font-display: swap;
+}
+

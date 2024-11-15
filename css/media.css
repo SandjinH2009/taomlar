@@ -1,0 +1,100 @@
+@media (max-width:1024px){
+    .foods__row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .foods__left{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:950px){
+    .history .container{
+        flex-direction: column;
+        gap: 45px;
+    }
+}
+
+
+@media (max-width:850px){
+    .nav__right{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+@media (max-width:600px){
+    .hero__info{
+        max-width: 100%;
+        text-align: center;
+    }
+    .hero__info::before{
+        display: none;
+    }
+    .hero__info::after{
+        display: none;
+    }
+    .hero__info h1 span{
+        font-size: 3.2rem;
+        line-height: 60px;
+    }
+    .hero__info h1{
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+    .about__row{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    }
+    .nav__right{
+        width: 100%;
+    }
+    .nav__right-img1{
+        width: 40%;
+        height: 54%;
+    }
+    .nav__right-img2{
+        width: 50%;
+        height: 80%;
+        right: 75px;
+    }
+    .nav__right-img3{
+        width: 40%;
+        height: 40%;
+    }
+.history__right{
+    width: 540px;
+    height: 400px;
+}
+.born__info h1{
+    font-size: 2.25rem;
+}
+.born__info p{
+    font-size: 1.125rem;
+}
+
+}
+@media (max-width:500px){
+    .history__total{
+        flex-direction: column;
+    }
+    .history__right{
+        height: 350px;
+    }
+}
+@media (max-width:400px){
+    .history__right{
+        height: 250px;
+    }
+    .foods__menu .img{
+        width: 130px;
+    }
+    .menu__row{
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+
+    }
+}
+
+
